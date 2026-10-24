@@ -21,6 +21,7 @@ public class SettingsActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
         setupBottomNav(R.id.nav_settings);
+        setupToolbarMenu();
 
         final SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         SwitchMaterial sw = findViewById(R.id.switchExpiry);

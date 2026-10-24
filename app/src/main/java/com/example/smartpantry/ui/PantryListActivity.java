@@ -27,6 +27,7 @@ public class PantryListActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantry_list);
         setupBottomNav(R.id.nav_pantry);
+        setupToolbarMenu();
         db = AppDatabase.getInstance(this);
         tvEmpty = findViewById(R.id.tvEmpty);
 

@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="You have every ingredient - tap for the method"
+            android:text="every ingredient has been met - tap for the method"
             android:textColor="@color/grey_text"
             android:textSize="13sp" />
     </LinearLayout>

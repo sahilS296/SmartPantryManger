@@ -29,6 +29,7 @@ public class SuggestedRecipesActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suggested);
         setupBottomNav(R.id.nav_suggested);
+        setupToolbarMenu();
         db = AppDatabase.getInstance(this);
         tvEmpty = findViewById(R.id.tvEmpty);
         tvSummary = findViewById(R.id.tvSummary);
