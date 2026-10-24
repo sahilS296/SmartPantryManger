@@ -24,7 +24,7 @@
             android:id="@+id/switchExpiry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Highlight items expiring within 3 days" />
+            android:text="Highlight items expiring soon (3 days)" />
 
         <Button
             android:id="@+id/btnClearPantry"
