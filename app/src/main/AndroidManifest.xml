@@ -1,9 +1,10 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:name=".SmartPantryApp"
         android:allowBackup="true"
-        android:label="My Smart Pantry Manager"
+        android:label="Smart Pantry Manager"
         android:theme="@style/Theme.SmartPantry">
 
         <activity android:name=".ui.SplashActivity" android:exported="true">
@@ -13,6 +14,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.PantryListActivity" android:exported="false" />
+        <activity android:name=".ui.AddEditItemActivity" android:exported="false" />
         <activity android:name=".ui.SuggestedRecipesActivity" android:exported="false" />
         <activity android:name=".ui.RecipeDetailActivity" android:exported="false" />
         <activity android:name=".ui.SettingsActivity" android:exported="false" />
