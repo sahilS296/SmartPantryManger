@@ -11,6 +11,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary"
         app:title="Settings"
+        app:titleCentered="true"
         app:titleTextColor="@color/white" />
 
     <LinearLayout
@@ -38,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:textColor="@color/grey_text"
-            android:text="Smart Pantry Manager v1.0\nRecipes are only suggested when you already have every ingredient." />
+            android:text="Smart Pantry Manager \nRecipes are only suggested when you already have every ingredient!!!!!." />
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
