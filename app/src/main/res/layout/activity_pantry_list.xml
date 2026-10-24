@@ -13,7 +13,8 @@
         app:title="My Pantry"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerPantry"
