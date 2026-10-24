@@ -6,13 +6,13 @@
         android:label="My Smart Pantry Manager"
         android:theme="@style/Theme.SmartPantry">
 
-        <activity android:name=".ui.PantryListActivity" android:exported="true">
+        <activity android:name=".ui.SplashActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.AddEditItemActivity" android:exported="false" />
+        <activity android:name=".ui.PantryListActivity" android:exported="false" />
         <activity android:name=".ui.SuggestedRecipesActivity" android:exported="false" />
         <activity android:name=".ui.RecipeDetailActivity" android:exported="false" />
         <activity android:name=".ui.SettingsActivity" android:exported="false" />
